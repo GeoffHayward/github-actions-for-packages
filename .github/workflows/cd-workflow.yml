@@ -65,5 +65,6 @@ jobs:
         password: ${{secrets.GITHUB_TOKEN}}
         registry: docker.pkg.github.com
         repository: GeoffHayward/github-actions-for-packages/tic-tac-toe
+        push: true
         labels: |
           org.opencontainers.image.revision=${{ github.sha }}
